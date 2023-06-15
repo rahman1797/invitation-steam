@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <base href="/">
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <link rel = "icon" href = 
+"https://kalananti.id/wp-content/uploads/2022/08/cropped-Logo-Lampu-Kalananti-2022-32x32.png" 
+        type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="open house kalananti offline center digital invitation"/>
+    <meta property="og:title" content="open house kalananti offline center" />
+    <meta name="og:description" content=""/>
+    <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '486497298996588');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=486497298996588&ev=PageView&noscript=1"
+  /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="./assets/css/icomoon.css">
+    <!-- Bootstrap  -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
+
+    <!-- Magnific Popup -->
+    <!-- <link rel="stylesheet" href="./invitation/assets/css/magnific-popup.css"> -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> -->
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="./assets/css/output.css">
+
+    <!-- Modernizr JS -->
+    <!-- <script src="assets/js/modernizr-2.6.2.min.js"></script> -->
+    <base href="/">
+
+    <!-- jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://form.ruangguru.com/form/embed.min.js"></script>
+
+    <title>Kalananti Open House</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="idForm" class="hidden"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+
+  <!-- jQuery -->
+	<!-- <script src="./invitation/assets/js/jquery.min.js"></script> -->
+	<!-- jQuery Easing -->
+	<!-- <script src="./invitation/assets/js/jquery.easing.1.3.js"></script> -->
+	<!-- Bootstrap -->
+	<!-- <script src="assets/js/bootstrap.min.js"></script> -->
+	<!-- Waypoints -->
+	<!-- <script src="./invitation/assets/js/jquery.waypoints.min.js"></script> -->
+	<!-- Carousel -->
+	<!-- <script src="assets/js/owl.carousel.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script> -->
+
+	<!-- countTo -->
+	<!-- <script src="assets/js/jquery.countTo.js"></script> -->
+
+	<!-- Stellar -->
+	<!-- <script src="assets/js/jquery.stellar.min.js"></script> -->
+	<!-- Magnific Popup -->
+	<!-- <script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/magnific-popup-options.js"></script> -->
+	<!-- Main -->
+	<!-- <script src="./assets/js/main.js"></script> -->
+
+  <script>
+    $(document).ready(function(){
+
+      // RG Form
+      $("#idForm").create_form({
+        formHost: "https://form.ruangguru.com", 
+        formSerial: "MARFK01996", 
+        buttonWording: "Cobaaa", 
+        onFormReady: function () {
+          $('#reward_form_submission').submit(function (event) {
+            let _form_action = $('#reward_form_submission').attr('action');
+            let _form_data = $('#reward_form_submission').serializeArray();
+            event.preventDefault();
+            postData(_form_action, _form_data);
+          })
+        }
+      });
+
+  });
+
+  function postData(url, data) {
+    $.ajax({
+        type: "POST",
+        url: url,
+        headers: { 'Access-Control-Allow-Origin': '*' },
+        data: data,
+        success: function () {
+            // $('#reward_form_submission').trigger('reset');
+            // showSuccessPopup();
+            // alert('berhasil')
+        },
+        error: function () {
+            // $('#reward_form_submission').trigger('reset');
+            // showErrorPopup();
+            // alert('gagal')
+        }
+    });
+  }
+  </script>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCMy1jijtJXv0yAfTqZTPN9NPLWfeMJB_s",
+      authDomain: "invitation-kalananti.firebaseapp.com",
+      databaseURL: "https://invitation-kalananti-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "invitation-kalananti",
+      storageBucket: "invitation-kalananti.appspot.com",
+      messagingSenderId: "398256473309",
+      appId: "1:398256473309:web:22a8ae2ff0c0ffbf7e8734",
+      measurementId: "G-8FVTD3S5E3"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+</html>

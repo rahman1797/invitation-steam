@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./invitation/static/css/main.f76d8690.css",
+    "main.js": "./invitation/static/js/main.f030d223.js",
+    "static/media/cover_bg_blue.png": "./invitation/static/media/cover_bg_blue.be449490d72ba76364f0.png",
+    "static/media/BG_Hero.png": "./invitation/static/media/BG_Hero.fe865c9e99540ef3dba3.png",
+    "static/media/BG_Section_tengah.png": "./invitation/static/media/BG_Section_tengah.1b59ea929cd33abd7ad5.png",
+    "static/media/playing_area.png": "./invitation/static/media/playing_area.8411440001e399ee73c3.png",
+    "static/media/makerspace.png": "./invitation/static/media/makerspace.07d351b6b698914148de.png",
+    "static/media/co_learning_space.png": "./invitation/static/media/co_learning_space.bd0c7ad796faf7140f75.png",
+    "static/media/parent_lounge.png": "./invitation/static/media/parent_lounge.abe3ac7265d027634ac5.png",
+    "static/media/activity 11.jpeg": "./invitation/static/media/activity 11.826461fa00dfbab34d7d.jpeg",
+    "static/media/activity 9.jpeg": "./invitation/static/media/activity 9.b48487d57232ec7a3ebe.jpeg",
+    "static/media/activity 10.jpeg": "./invitation/static/media/activity 10.dca0fc2dc5375c971403.jpeg",
+    "static/media/activity 3.jpeg": "./invitation/static/media/activity 3.9b521c6398d8b1de44ec.jpeg",
+    "static/media/activity 5.jpeg": "./invitation/static/media/activity 5.88e44426fcf9080884b5.jpeg",
+    "static/media/activity 1.jpeg": "./invitation/static/media/activity 1.668ca1adb3222ea0b173.jpeg",
+    "static/media/activity 2.jpeg": "./invitation/static/media/activity 2.4cc68e4c1c1640e583ea.jpeg",
+    "static/media/activity 4.jpeg": "./invitation/static/media/activity 4.e8d29a9145b7aa5995e2.jpeg",
+    "static/media/cover_bg_white.png": "./invitation/static/media/cover_bg_white.13ac22720b286f04430a.png",
+    "static/media/activity 8.jpeg": "./invitation/static/media/activity 8.78e86095df40701dbe98.jpeg",
+    "static/media/BG_footer.png": "./invitation/static/media/BG_footer.2694416ae984e09b22b4.png",
+    "index.html": "./invitation/index.html",
+    "main.f76d8690.css.map": "./invitation/static/css/main.f76d8690.css.map",
+    "main.f030d223.js.map": "./invitation/static/js/main.f030d223.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f76d8690.css",
+    "static/js/main.f030d223.js"
+  ]
+}

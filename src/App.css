@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.section-padding {
+    @apply px-6 md:px-14 lg:px-24 py-7 md:py-14;
+  }
+  .section-padding-x {
+    @apply px-6 md:px-14 lg:px-24;
+  }
+  .section-padding-y {
+    @apply py-7 md:py-14;
+  }
+  

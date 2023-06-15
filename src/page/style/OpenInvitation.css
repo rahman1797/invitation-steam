@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css?family=Playball'); */
+/* @import url('https://fonts.googleapis.com/css?family=Arima+Madurai'); */
+
+#invitation {
+    background-image: url('../../assets/images/Opening_mobile.png');
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    background-size: 100% 50%;
+    background-position: bottom;
+    min-height: 100vh;
+}
+
+@media (min-width: 640px){
+  #invitation {
+    background-image: url('../../assets/images/Opening_desktop.png');
+    background-size: 100% 100%;
+  }
+}
+
+/* .btn-slide-pink{
+  background: linear-gradient(90deg, #E95719 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  border: none;
+}
+.btn-slide-pink:hover {
+    background-position: left bottom;
+    color: white;
+} */
