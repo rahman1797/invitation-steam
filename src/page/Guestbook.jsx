@@ -52,7 +52,7 @@ export default function Guestbook() {
   ]
   const [opsi, setOpsi] = useState(sesi);
 
-  const nama_event = 'Graduation Day';
+  const nama_event = 'STEAM Day 24 Juni 2023';
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -81,7 +81,7 @@ export default function Guestbook() {
       document.getElementById('reward_form_submission_submission_data_nama_ortu').value = namaOrtu;
       // document.getElementById('reward_form_submission_submission_data_kehadiran').value = kehadiran;
       // document.getElementById('reward_form_submission_submission_data_alamat').value = domisili;
-      // document.getElementById('reward_form_submission_submission_data_event').value = nama_event;
+      document.getElementById('reward_form_submission_submission_data_event').value = nama_event;
       
 
       handleSave();

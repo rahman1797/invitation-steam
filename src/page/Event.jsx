@@ -6,8 +6,8 @@ import map from '../assets/images/icon_map.png'
 
 function Event() {
 
-    let jadwal = "Sabtu, 10 Juni2023";
-    let waktu = "13:00 - 14:30 WIB";
+    let jadwal = "Sabtu, 24 Juni 2023";
+    let waktu = "13:00 - 15:00 WIB";
 
     return (
         <section className='px-2-cus lg:px-1-cus mt-10 -mb-20 md:-mb-40'>

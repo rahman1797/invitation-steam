@@ -21,16 +21,15 @@ function Activity() {
 								<ul className='text-left relative z-10'>
 									<li className='flex items-center mb-5-cus'> 
 										<img className='h-9 lg:h-8 mr-3-cus' src={cek_ungu} alt="" />
-										Merencanakan solusi dari permasalahan lingkungan
-										
+										Melakukan perburuan untuk mengungkap sejarah
 									</li>
 									<li className='flex items-center mb-5-cus'> 
 										<img className='h-9 lg:h-8 mr-3-cus' src={cek_ungu} alt="" />
-										Membuat model Eco-Smart Car
+										Mempelajari konsep geometri dengan aktivitas belajar yang menyenangkan
 									</li>
 									<li className='flex items-center'> 
 										<img className='h-9 lg:h-8 mr-3-cus' src={cek_ungu} alt="" />
-										Mempresentasikan karya model Eco-Smart Car
+										Mempelajari dasar fisika dan hukum Newton 
 									</li>
 								</ul>
 								<img className='absolute h-40 left-0 bottom-0 -translate-x-6 translate-y-12' src={parabola} alt="" />
@@ -42,15 +41,18 @@ function Activity() {
 								<ul className='text-left relative z-10'>
 									<li className='flex items-center mb-5-cus'> 
 										<img className='h-9 lg:h-8 mr-3-cus' src={cek_ijo} alt="" />
-										Gratis Eco-Smart Car kit
+										Gratis <i>Experiment kite</i> kit
 									</li>
 									<li className='flex items-center mb-5-cus'> 
 										<img className='h-9 lg:h-8 mr-3-cus' src={cek_ijo} alt="" />
 										Berkolaborasi dengan teman-teman baru
 									</li>
+									<li className='flex items-center mb-5-cus'> 
+										<img className='h-9 lg:h-8 mr-3-cus' src={cek_ijo} alt="" />
+										Belajar sejarah, matematika, dan fisika sederhana secara tematik							</li>
 									<li className='flex items-center'> 
 										<img className='h-9 lg:h-8 mr-3-cus' src={cek_ijo} alt="" />
-										Kelas live tatap muka 1.5 jam di Kalananti Center
+										Kelas live tatap muka 2 jam di Kalananti Center
 									</li>
 
 								</ul>

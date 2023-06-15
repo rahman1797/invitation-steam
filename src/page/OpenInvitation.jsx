@@ -52,7 +52,7 @@ function OpenInvitation() {
             </div> */}
             <div className='section-padding w-full h-[60vh] md:h-screen bg-[length:100%_100%]' style={{ backgroundImage: `url(${cover1})` }}>
                 <img className='h-16 mb-14' src={logoKalananti} alt="" />
-                <div className='lg:text-2xl bg-[#E0E8F8] p-3-cus rounded-xl w-max font-semibold text-blue-kalananti mb-8'>10 June 2023</div>
+                <div className='lg:text-2xl bg-[#E0E8F8] p-3-cus rounded-xl w-max font-semibold text-blue-kalananti mb-8'>24 June 2023</div>
                 <p className='text-2xl md:text-3xl lg:text-4xl text-blue-kalananti font-medium md:leading-relaxed'>
                     You’re invited to <br />
                     <span className='font-semibold text-[#E99249] mr-1-cus inline-block my-2-cus md:my-3-cus lg:my-5-cus'>

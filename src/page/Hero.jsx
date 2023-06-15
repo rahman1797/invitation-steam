@@ -26,7 +26,7 @@ function Hero() {
 					<div className='mt-10 text-lg'>
 						Untuk menghadiri 
 						<span className='text-[#F5EAAE] text-xl font-bold inline-block ml-2-cus'>
-							<em>"STEAM DAY: Create Your Eco-Smart Car!"</em>
+							<em>"STEAM DAY: Science of the Lost Kite!"</em>
 							<img className='w-80' src={curve} alt="" />
 						</span> 
 					</div>
